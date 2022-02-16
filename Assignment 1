@@ -1,0 +1,28 @@
+- 👋 Hi, I’m @Vankaiswarya
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Vankaiswarya/Vankaiswarya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->def is_leap(year):
+    leap = False
+
+
+
+     if year%400 == 0 :
+        leap = True
+    elif year%4 == 0 and  year%100 != 0:
+
+     leap = True
+     return leap   
+
+    return leap
+
+year = int(input())
+
+
+
+
