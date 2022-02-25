@@ -1,0 +1,24 @@
+- 👋 Hi, I’m @Vankaiswarya
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Vankaiswarya/Vankaiswarya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+n=int(input("enter n value"))
+l=[]
+t=[]
+for x in range(n):
+    x=int(input())
+    l.append(x)
+count=0
+for i in range(n):
+    i=int(i)
+    if l[i]!=0:
+        t.append(l[i])
+        count+=1
+print(t)
+print("count",count)
