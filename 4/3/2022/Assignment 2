@@ -1,0 +1,20 @@
+- 👋 Hi, I’m @Vankaiswarya
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Vankaiswarya/Vankaiswarya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+
+assign-2
+list = [1,2,1,4]
+new = [] 
+for a in list:
+    n = list.count(a)
+    if n > 1:
+        if new.count(a) == 0:
+            new.append(a)
+print(new)
